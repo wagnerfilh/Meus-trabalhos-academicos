@@ -1,6 +1,7 @@
 import Armazenamento.salvando
 import Consulta.consultando
 
+
 def db_textual():
     continuar = 0
     while continuar != 3:
@@ -9,6 +10,7 @@ def db_textual():
             Armazenamento.salvando.memorinha()
         if continuar == 2:
             Consulta.consultando.busca()
-    print(('Programa encerrado'))
+    print('Programa encerrado')
+
 
 db_textual()
